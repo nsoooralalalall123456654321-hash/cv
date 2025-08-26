@@ -1,0 +1,103 @@
+body {
+    font-family: "Tahoma", Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+  }
+  
+  .cv-container {
+    max-width: 700px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+  }
+  
+  .mentor {
+    background: #ebf8ff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    color: #2b6cb0;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  header {
+    border-bottom: 2px solid #e0e0e0;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+  }
+  
+  .header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-text {
+    flex: 1;
+  }
+  
+  .profile-pic {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin-left: 20px;
+    border: 3px solid #a0aec0;
+    border-radius: 8px; /* مربع مع حواف خفيفة */
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #2d3748;
+    font-size: 24px;
+  }
+  
+  header h2 {
+    margin: 5px 0 0;
+    font-size: 18px;
+    color: #4a5568;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    margin-bottom: 8px;
+    color: #2b6cb0;
+    border-right: 4px solid #63b3ed;
+    padding-right: 6px;
+    font-size: 18px;
+  }
+  
+  p, li {
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li::before {
+    content: "• ";
+    color: #63b3ed;
+    font-weight: bold;
+  }
+  
+  .message {
+    margin-top: 25px;
+    padding: 12px;
+    border-top: 2px solid #e0e0e0;
+    text-align: center;
+    color: #2d3748;
+    font-weight: bold;
+    background: #edf2f7;
+    border-radius: 8px;
+  }
+  
